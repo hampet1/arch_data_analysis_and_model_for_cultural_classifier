@@ -10,7 +10,7 @@ This ML model is used to distinguish between two archaeological cultures (specif
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Classifier distinguishes between two very simalar archaeological cultures in terms of material culture. The input data (attributes) includes 
+Classifier distinguishes between two very similar archaeological cultures in terms of material culture. The input data (attributes) includes 
 geospacial data related to the archaeological sites, the output is one of the archaeological cultures. The input takes 6 different attributes, namely: distance to river, distance above river, viewshed, normalized height, terrain variability 500m, Terrain variability 1000m.
 
 For more information regarding input data please checkout the [guideline](https://cultural-classifier.herokuapp.com/guideline).
