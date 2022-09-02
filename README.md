@@ -1,6 +1,6 @@
-<h1 align="center"> model for cultural classifier </h1>
+<h1 align="center"> model for cultural classification in archaeology </h1>
 
-Cultural classifier is the ML model that distinguishes between two archaeological cultures (specifically epigravettian and epiaurignacian) that are hard to classify with the conventional classification approach that relies on analysing the stone tool industry.<br>
+This ML model is used to distinguish between two archaeological cultures (specifically epigravettian and epiaurignacian) that are hard to classify with the conventional classification approach that relies on analysing the stone tool industry.<br>
 
 * machine learning for classification purposes in archaeology
 * practical usage of the Logistic regression model as a complement for classifying stone industry, trained model and all data are available [here](https://github.com/hampet1/arch_data_analysis_and_model_for_cultural_classifier)
@@ -11,7 +11,8 @@ Cultural classifier is the ML model that distinguishes between two archaeologica
 ## Usage
 
 Classifier distinguishes between two very simalar archaeological cultures in terms of material culture. The input data (attributes) includes 
-geospacial data related to the archaeological sites, the output is one of the archaeological cultures.
+geospacial data related to the archaeological sites, the output is one of the archaeological cultures. The input takes 6 different attributes, namely: distance to river, distance above river, viewshed, normalized height, terrain variability 500m, Terrain variability 1000m.
+
 For more information regarding input data please checkout the [guideline](https://cultural-classifier.herokuapp.com/guideline).
 
 For more info please checkout the website [about project](https://cultural-classifier.herokuapp.com/about-project)
